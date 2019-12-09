@@ -47,6 +47,7 @@ public class TaskList {
             cascade = CascadeType.ALL,
             fetch = FetchType.LAZY
     )
+
     public List<Task> getTasks() {
         return tasks;
     }
