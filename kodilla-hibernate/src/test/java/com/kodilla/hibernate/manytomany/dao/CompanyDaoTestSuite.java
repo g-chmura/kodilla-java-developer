@@ -69,7 +69,7 @@ public class CompanyDaoTestSuite {
     }
 
     @Test
-    public void testQueries() {
+    public void testNamedQueriesHQL() {
         //Given
         Employee johnSmith = new Employee("John", "Smith");
         Employee stephanieClarckson = new Employee("Stephanie", "Clarckson");
